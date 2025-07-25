@@ -1,0 +1,26 @@
+ul{
+    display:flex;
+    justify-content: space-evenly;
+    background-color: rgb(10, 10, 10);
+    border-radius: 2px;
+    padding-inline-start: 0px;
+}
+
+a{
+    color: rgb(155, 154, 152);
+    text-transform: capitalize;
+    text-decoration: none;
+    
+}
+a:hover{
+    color: rgb(1, 61, 40);
+}
+
+
+.root{
+    width:90vw;
+    height: 100vh;
+    margin: auto;
+    background-color: rgb(36, 35, 35);
+
+}
