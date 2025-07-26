@@ -8,6 +8,8 @@ import About from "./components/about"
 import Skills from "./components/skills"
 import Contact from "./components/contact"
 import Projects from "./components/projects"
+import Footer from "./components/footer"
+
 import "../styles/navbar_list.css"
 
 function App() {
@@ -22,8 +24,11 @@ function App() {
           <Route path="/contact" element={<Contact/>}/>
         </Routes>
        </BrowserRouter>
-
+       <div>
+        <Footer/>
+       </div>
     </div>)
+  
 }
 
 

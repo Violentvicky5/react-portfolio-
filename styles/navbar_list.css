@@ -1,26 +1,51 @@
 ul{
     display:flex;
     justify-content: space-evenly;
-    background-color: rgb(10, 10, 10);
     border-radius: 2px;
     padding-inline-start: 0px;
 }
+li{
+    list-style: none;
+    margin-top: 5px;
+    font-size: large;
+}
 
 a{
-    color: rgb(155, 154, 152);
+    
+    color: rgb(236, 164, 19);
     text-transform: capitalize;
     text-decoration: none;
     
 }
 a:hover{
-    color: rgb(1, 61, 40);
+    color: rgb(12, 223, 149);
 }
 
 
 .root{
+    border-radius: 5px;
     width:90vw;
-    height: 100vh;
+    height: auto;
     margin: auto;
     background-color: rgb(36, 35, 35);
+     
+  --s: 200px; /* control the size*/
+  --c1: #1d1d1d;
+  --c2: #4e4f51;
+  --c3: #3c3c3c;
+  
+  background:
+    repeating-conic-gradient(from 30deg,#0000 0 120deg,var(--c3) 0 50%) 
+     calc(var(--s)/2) calc(var(--s)*tan(30deg)/2),
+    repeating-conic-gradient(from 30deg,var(--c1) 0 60deg,var(--c2) 0 120deg,var(--c3) 0 50%);
+  background-size: var(--s) calc(var(--s)*tan(30deg));
 
+
+}
+
+@media only screen and (max-width:480px){
+    li{
+        font-size: xx-small;
+        color:white
+    }
 }
