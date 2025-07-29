@@ -1,0 +1,7 @@
+.project_list{
+    display: block;
+    justify-content: center;
+}
+.project_list li{
+    margin-top: 15px;
+}

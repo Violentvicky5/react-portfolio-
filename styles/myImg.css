@@ -1,10 +1,10 @@
 img{
     
-    width:200px;
-    height:200px;
+    width:100px;
+    height:100px;
     border-radius: 50%;
     border: 2px solid gold;
-    border-color: whitesmoke;
+    border-color: #f5f5f5;
     box-shadow: 0px 0px 2px 2px  rgb(143, 141, 128);
     float: left;
     margin-inline: 8px ;
@@ -19,13 +19,12 @@ img:hover{
     
 }
 .scroll_bar{
-    color:whitesmoke;
     height: 150px;
-     font-Family:"cursive";
-      height:250; 
-      overflow: hidden;
-      overflow-y: scroll;
-      scrollbar-color: black;
+     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+      height:270px; 
+      font-size: large;
+      
+      
 
 }
 /* Global scrollbar styling */
@@ -33,14 +32,12 @@ img:hover{
   width: 10px;
 }
 
-.scroll_bar::-webkit-scrollbar-track {
-  background:rgb(36, 35, 35)
-}
+
 
 .scroll_bar::-webkit-scrollbar-thumb {
-  background-color: rgb(104, 102, 100);
+  background-color: rgb(125, 190, 150);
   border-radius: 10px;
-  border: 2px solid #1a1a1a;
+ ;
 }
 
 
@@ -60,12 +57,14 @@ img:hover{
     
 }
 .scroll_bar{
-    color:rgb(238, 230, 112);
+    color:rgb(7, 7, 7);
     height: 150px;
-     font-family: sans-serif;
+    
      font-size: smaller; 
-     font-style: italic;
-
+   
+ 
+      overflow-y: scroll;
+      scrollbar-color: black;
         
 }
 h1{

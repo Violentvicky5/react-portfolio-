@@ -1,3 +1,13 @@
+hr{
+    border: none;              /* Remove default border */
+  height: 1px;               /* Set thickness */
+  background-color:rgb(33, 196, 160);   /* Set custom color */
+  width: 95%;                /* Optional: make it shorter */
+  margin: 2px auto;         /* Center it */
+  border-radius: 0px;
+
+}
+
 ul{
     display:flex;
     justify-content: space-evenly;
@@ -25,27 +35,17 @@ a:hover{
 .root{
     border-radius: 5px;
     width:90vw;
-    height: auto;
+    height: 100vh;
+    
     margin: auto;
-    background-color: rgb(36, 35, 35);
      
-  --s: 200px; /* control the size*/
-  --c1: #1d1d1d;
-  --c2: #4e4f51;
-  --c3: #3c3c3c;
-  
-  background:
-    repeating-conic-gradient(from 30deg,#0000 0 120deg,var(--c3) 0 50%) 
-     calc(var(--s)/2) calc(var(--s)*tan(30deg)/2),
-    repeating-conic-gradient(from 30deg,var(--c1) 0 60deg,var(--c2) 0 120deg,var(--c3) 0 50%);
-  background-size: var(--s) calc(var(--s)*tan(30deg));
-
+background-image: linear-gradient(to bottom, #4daaa1, #6da694, #82a28f, #919e8f, #999b96);
 
 }
 
 @media only screen and (max-width:480px){
     li{
         font-size: xx-small;
-        color:white
+        color:rgb(32, 29, 29)
     }
 }

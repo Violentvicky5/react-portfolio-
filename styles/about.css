@@ -1,0 +1,17 @@
+p{
+    font-size: medium;
+}
+div{
+    height:90vh;
+}
+
+
+@media only screen and (max-width:480px) {
+
+     div{
+         overflow-y: scroll;
+      scrollbar-color: rgb(80, 78, 78);
+     }
+     
+    
+}

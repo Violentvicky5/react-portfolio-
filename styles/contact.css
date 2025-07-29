@@ -1,0 +1,32 @@
+.contact{
+    display: block;
+}
+
+.contact li a{
+    color:rgb(5, 105, 109);
+    
+}
+.contact li{
+    margin-top: 5px;
+}
+
+.contact_main{
+   width: 60%;
+   height: 25%;
+   margin: auto;
+   margin-top: 15%;
+   background-color: rgb(59, 150, 120);
+    border-radius: 5px;
+    
+}
+h2{
+    text-align: center;
+}
+.contact li{
+    margin-left: 5px;
+}
+
+.contact li a:hover{
+    color:rgb(12, 206, 231);
+    
+}

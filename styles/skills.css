@@ -1,0 +1,41 @@
+.skills_main{
+    height: 90vh;
+    overflow: hidden;
+    overflow-y: scroll;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-align:justify;
+}
+
+
+
+.fr_dev {
+    display: block;
+    
+}
+.back_dev{
+    display: block;
+}
+.tools_platforms{
+    display: block;
+
+}
+.skills_experience{
+    display: block;
+}
+
+.skills_main::-webkit-scrollbar {
+  width: 5px;
+}
+
+.skills_main::-webkit-scrollbar-thumb {
+ background-image: linear-gradient(to bottom, #4daaa1, #6bf8cb, #10c95a, #636463, #999b96);
+border-radius: 10px;
+
+}
+
+
+@media only screen and (max-width:480px) {
+    h2{
+        font-size: smaller;
+    }
+}

@@ -15,7 +15,7 @@ import "../styles/navbar_list.css"
 function App() {
   return (  <div className='root'>
       <BrowserRouter>
-        <Navbar/>
+        <Navbar/> <hr />
         <Routes>
           <Route path="/hero" element={<Hero />} />
           <Route path="/about" element={<About/>}/>

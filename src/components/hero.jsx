@@ -7,7 +7,7 @@ import "../../styles/myImg.css"
 
 function Hero() {
   return ( <div>
-        <h1 style={{color:"gold", textTransform:"capitalize"}}>Vignesh Ravichandran </h1>
+        <h1 style={{ textTransform:"capitalize"}}>Vignesh Ravichandran </h1>
        <div className="img_para"> <img className="myimage" src={myImg} alt="my_img" />
         <p className="scroll_bar" >Hi, I'm Vignesh Ravichandran — a passionate and self-taught full stack developer.
 
