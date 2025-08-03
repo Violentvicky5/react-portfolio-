@@ -41,7 +41,7 @@ function Skills() {
             </ul>  
             <hr />
               <li><p><a href="course_certificate.pdf" download>click here : </a>to download My Udemy- Full Stack Development course completion certificate</p></li>    
-                <li><p><a href="#" download>click here : </a>to download My Resume.</p></li>    
+                <li><p><a href="_vigneshravichandran_dev.pdf" download>click here : </a>to download My Resume.</p></li>    
        
         </div>
     )

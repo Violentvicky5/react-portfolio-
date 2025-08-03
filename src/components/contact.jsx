@@ -7,9 +7,9 @@ function Contact() {
             <p></p>
 
             <ul className="contact">
-                <li><strong>Email:</strong> <a href="mailto:violentvicky5@gmail.com">violentvicky5@gmail.com</a></li>
-                <li><strong>Phone:</strong> <a href="tel:+911234567890">+91 12345 67890</a></li>
-                <li><strong>GitHub:</strong> <a href="https://github.com/Violentvicky5" target="_blank">Violentvicky5</a></li>
+                <li><strong>Email:</strong> <a href="mailto:vigneshravichandran379@gmail.com">vigneshravichandran379@gmail.com</a></li>
+                <li><strong>watsapp:</strong> <a href="tel:+917502829867">+91 75028 29867</a></li>
+                <li><strong>GitHub:</strong> <a href="https://github.com/Violentvicky5" target="_blank">https://github.com/Violentvicky5</a></li>
             </ul>
 
         </div>
